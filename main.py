@@ -33,7 +33,6 @@ def engine():
     print("done. Program ends")
 
 def live():
-    with open(OUTURL, "w"): pass
     try:
         while 1:
             word=input("please input a vocab word: ")
